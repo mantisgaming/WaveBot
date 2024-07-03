@@ -1,0 +1,22 @@
+{
+  "name": "wavebot",
+  "version": "1.0.0",
+  "description": "A bot to wave at messages from users who join or introduce themselves",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "debug": "nodemon ./src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.1"
+  }
+}

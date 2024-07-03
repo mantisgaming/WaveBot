@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "rootDir": "./src",
+        "module": "NodeNext",
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "target": "ESNext",
+        "moduleResolution": "NodeNext"
+    },
+    "include": ["src"]
+}
